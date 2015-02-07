@@ -1,0 +1,36 @@
+{
+  "name": "YaTriple",
+  "version": "0.0.1",
+  "description": "yet another triple",
+  "bin": {
+    "yatriple": "./bin/yatriple",
+    "yat": "./bin/yatriple"
+  },
+  "keywords": [
+    "titanium",
+    "cli",
+    "appcelerator",
+    "triple",
+    "repl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/k0sukey/YaTriple.git"
+  },
+  "author": "Kosuke Isobe",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "char-spinner": "^1.0.1",
+    "commander": "^2.6.0",
+    "fs-extra": "^0.16.3",
+    "lodash": "^3.1.0",
+    "q": "^1.1.2",
+    "tiapp.xml": "^0.2.2",
+    "ws": "^0.7.1"
+  }
+}
