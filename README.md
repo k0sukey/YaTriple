@@ -2,7 +2,7 @@
 
 **If there is no compelling thing, please use the [triple](https://github.com/tonylukasavage/triple).**
 
-YaTriple is very simple, does not have nice command of care. Only supports iOS and than anything.
+YaTriple is very simple, does not have nice command of care. ~~Only supports iOS and than anything.~~
 
 ## Why?
 
@@ -37,6 +37,22 @@ $ yat
 
 When the simulator is launched, will stop at the splash screen. **Take it easy.** That's all right. Please coding the ```Ti.UI.Window```.
 
+If you timed out on build? Please try it with the ```-v``` option
+
+### Specify a platform
+
+Default iOS, you can select the ios and android
+
+```sh
+$ yatriple -p android
+```
+
+### Specify a device id
+
+```sh
+$ yatriple -p android -C 'Nexus S - 4.1.1 - API 16 - 480x800'
+```
+
 ### Coping entry point
 
 Do not support load the folder
@@ -55,10 +71,13 @@ $ yatriple -m path/to/foo-iphone-1.0.0.zip
 
 ### Option
 
-YaTriple contained [TiWSEvaluateJS](https://github.com/k0sukey/TiWSEvaluateJS). Please use the -P option if you want to specify a port(default 8888).
+YaTriple contained [TiWSEvaluateJS](https://github.com/k0sukey/TiWSEvaluateJS)
+
+* use the ```-H``` option if you want to specify a host(default localhost).
+* use the ```-P``` option if you want to specify a port(default 8888).
 
 ```sh
-$ yatriple -P 8080
+$ yatriple -H 192.168.1.1 -P 8080
 ```
 
 ## Credit

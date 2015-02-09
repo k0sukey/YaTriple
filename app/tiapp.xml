@@ -52,6 +52,7 @@
   </mobileweb>
   <modules>
     <module platform="iphone">be.k0suke.tiwsevaluatejs</module>
+    <module platform="android">be.k0suke.tiwsevaluatejs</module>
   </modules>
   <deployment-targets>
     <target device="android">false</target>
